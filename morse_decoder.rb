@@ -25,7 +25,7 @@ MY_ABC = {
   'x' => '-..-',
   'y' => '-.--',
   'z' => '--..'
-}
+}.freeze
 
 def decode_char(char)
   MY_ABC.each do |key, value|
@@ -34,20 +34,21 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  newWord = ""
-  newArr = word.split(" ")
-  newArr.each do |value|
-    newWord +=  decode_char(value)
+  new_word = ''
+  new_arr = word.split
+  new_arr.each do |value|
+    new_word += decode_char(value)
   end
-  return newWord
+  new_word
 end
 
 def decode(text)
-  newWord = ""
-  newArr = text.split("   ")
-  newArr.each do |value|
-    newWord +=  decode_word(value) + " "
+  new_word = ''
+  new_arr = text.split('   ')
+  new_arr.each do |value|
+    new_word += "#{decode_word(value)} "
   end
-  print newWord
+  puts new_word
 end
-decode "      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
+
+decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
