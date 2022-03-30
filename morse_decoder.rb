@@ -29,8 +29,17 @@ MY_ABC = {
 
 def decode_char(char)
   MY_ABC.each do |key, value|
-    puts key.upcase if value == char
+    return key.upcase if value == char
   end
 end
 
-decode_char('.-')
+def decode_word(word)
+  newWord = ""
+  newArr = word.split(" ")
+  newArr.each do |value|
+    newWord +=  decode_char(value)
+  end
+  print newWord
+end
+
+decode_word "-- -.--"
