@@ -40,17 +40,19 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Nicolas**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@Nicolaswg](https://github.com/Nicolaswg)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/nicolas-gonzalez-8623461a0/)
 
-👤 **Author2**
+👤 **Lisandro Seia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@lisandroseia](https://github.com/lisandroseia)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
 ## 🤝 Contributing
 
