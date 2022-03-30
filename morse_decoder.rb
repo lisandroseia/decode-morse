@@ -39,7 +39,15 @@ def decode_word(word)
   newArr.each do |value|
     newWord +=  decode_char(value)
   end
-  print newWord
+  return newWord
 end
 
-decode_word "-- -.--"
+def decode(text)
+  newWord = ""
+  newArr = text.split("   ")
+  newArr.each do |value|
+    newWord +=  decode_word(value) + " "
+  end
+  print newWord
+end
+decode "      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
