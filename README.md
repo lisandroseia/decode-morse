@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Description the project.
+> Description the project
 
 
 ## Built With
