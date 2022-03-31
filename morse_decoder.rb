@@ -48,7 +48,5 @@ def decode(text)
   new_arr.each do |value|
     new_word += "#{decode_word(value)} "
   end
-  puts new_word unless new_word.nil?
+  new_word
 end
-
-decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
