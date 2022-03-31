@@ -48,7 +48,7 @@ def decode(text)
   new_arr.each do |value|
     new_word += "#{decode_word(value)} "
   end
-  new_word.strip!
+  new_word
 end
 
 decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
