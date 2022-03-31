@@ -46,14 +46,9 @@ def decode(text)
   new_word = ''
   new_arr = text.split('   ')
   new_arr.each do |value|
-    new_word += "#{decode_word(value)} " 
+    new_word += "#{decode_word(value)} "
   end
-  unless new_word == nil      
-    puts new_word
-  end
+  puts new_word unless new_word.nil?
 end
 
-decode('.-')
-decode('-- -.--')
-decode('-- -.--   -. .- -- .')
 decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
